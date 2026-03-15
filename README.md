@@ -5,9 +5,9 @@
 # TODO Tasks API
 
 ## 📁 Sobre o projeto
-Este projeto faz parte da atividade da disciplina **Arquitetura de Serviços**, do professor **Leonardo Guerreiro**, no curso de MBA em Engenharia de Software pela UFRJ.
+Este projeto faz parte da atividade da disciplina **Arquitetura de Serviços**, do professor **Leonardo Guerreiro**, no curso de Engenharia de Software pela UFRJ.
 
-Aqui a proposta foi reproduzir, em Laravel, o que foi implementado em Python no curso. Ou seja: mesma ideia do web service RESTful de tarefas, mas com uma estrutura Laravel mais limpa e pronta para evoluir.
+Aqui a proposta foi reproduzir, em Laravel, o que foi implementado em Python no curso. Ou seja: mesma ideia do web service RESTful de tarefas, mas com uma estrutura Laravel mais limpa e pronta para evoluir. A ideia foi alterar a linguagem afim de ter uma experiência maior de desenvolvimento para ampliar conhecimentos.
 
 ## 🔎 Funcionalidades principais
 A API gerencia tarefas (`tasks`) com CRUD completo:
