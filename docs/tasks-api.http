@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:8000
+
+### Listar tarefas
+GET {{baseUrl}}/todo/api/tasks
+Accept: application/json
+
+### Buscar tarefa por id
+GET {{baseUrl}}/todo/api/tasks/1
+Accept: application/json
+
+### Criar tarefa
+POST {{baseUrl}}/todo/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Test the web service",
+  "description": "You should test this web service."
+}
+
+### Atualizar tarefa
+PUT {{baseUrl}}/todo/api/tasks/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Test web service X",
+  "description": "You should test this web service.",
+  "done": true
+}
+
+### Deletar tarefa
+DELETE {{baseUrl}}/todo/api/tasks/1
+Accept: application/json
